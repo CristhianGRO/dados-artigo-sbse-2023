@@ -1,7 +1,8 @@
 <div align="center">
     <img src=".github/Imagens/solar-energy-icon.svg" style="width: 20vw">
     
-    Repositório de Dados: Uma Avaliação em Série-Temporal Quase-Estática da Capacidade de Hospedagem de Geração FV em Redes de Distribuição 
+    Repositório de Dados: Uma Avaliação em Série-Temporal Quase-Estática da 
+    Capacidade de Hospedagem de Geração FV em Redes de Distribuição 
 </div>
 
 Dados Referentes ao **Artigo** submetido ao **Simpósio Brasileiro de Sistemas Elétricos** (SBSE) 2023
