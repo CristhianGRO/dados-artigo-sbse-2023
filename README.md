@@ -14,8 +14,9 @@ Dados Referentes ao **Artigo** submetido ao **Simpósio Brasileiro de Sistemas E
 
 # ⛅ Introdução
 
-O presente repositório a
+O presente repositório reúne os dados utilizados para o desenvolvimento das simulações, bem os resultados obtidos, expostos no artigo _"Uma Avaliação em Série-Temporal Quase-Estática da Capacidade de Hospedagem de Geração FV em Redes de Distribuição"_, submetido ao Simpósio Brasileiro de Sistemas Elétricos (SBSE) 2023.
 
+O objetivo desse material é possibilitar que outros pesquisadores do tema utilizem o modelo adotado para comparação e validação de resultados, bem como para o desenvolvimento de novas pesquisas envolvendo o tema.
 
 <br><br>
 
@@ -38,8 +39,6 @@ Os arquivos, presentes nessa pasta são:
 
 - `Dados_Fotovoltaico_EC2_X_A.csv`: curvas de geração fotovoltaica e potência instalada para o Estudo de Caso com X% de hospedagem, com centro de geração fotovoltaico no agrupamento A; 
 - `Dados_Fotovoltaico_EC2_X_B.csv`: curvas de geração fotovoltaica e potência instalada para o Estudo de Caso com X% de hospedagem, com centro de geração fotovoltaico no agrupamento B; 
-
-<br><br>
 
 ## Pasta: _Resultados_
 Esta pasta contém os arquivos .csv com os resultados de cada estudo de caso, obtidos através das simulações realizadas no desenvolvimento deste artigo.
