@@ -10,11 +10,9 @@ Dados Referentes ao **Artigo** submetido ao **Simpósio Brasileiro de Sistemas E
 
 # 🔎 Legenda
 
-Barra,Potencia_Instalada,Gerado_Intervalo_1,Gerado_Intervalo_2,Gerado_Intervalo_3,
+Cada um dos arquivos _"FV_EC2_X_A"_ e _"FV_EC2_X_B"_ contém a descrição dos arranjos fotovoltaicos utilizados para os Estudos de Caso com X% de hospedagem, para centro de geração fotovoltaica nos agrupamentos A e B, respectivamente.
 
-Cada um dos arquivos contém os módulos de tensão e ângulo de fase para cada uma das 70 barras, além das perdas ativas e reativas para cada um dos 69 ramos, em cada um dos 144 intervalos de tempo analisados (intervalos espaçados em 10 minutos). 
-
-As colunas para cada intervalo possuem os seguintes dados: 
+Cada uma das linhas descreve um arranjo individual. As colunas para cada arranjo possuem os seguintes dados: 
 
 - **Barra**: Barra na qual está alocado o arranjo fotovoltaico;
 - **Potencia_Instalada**: Potência de pico instalada no arranjo fotovoltaico conectado ao barramento [pu/10];
