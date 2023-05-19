@@ -50,7 +50,7 @@ Os arquivos disponíveis são:
 - `resultsEC2_X_A.csv`: Estudos de Caso com centro de geração no agrupamento A, para uma hospedagem de X%.
 - `resultsEC2_X_B.csv`: Estudos de Caso com centro de geração no agrupamento B, para uma hospedagem de X%.
 
-Cada um desses arquivos contém os módulos de tensão e ângulo de fase para cada uma das 70 barras, além das perdas ativas e reativas para cada um dos 69 ramos, em cada um dos 144 intervalos de tempo analisados (intervalos espaçados em 10 minutos). 
+
 
 <br><br>
 

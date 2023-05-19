@@ -34,8 +34,8 @@ Em cada linha são presentes as seguintes colunas, em ordem:
 - **ID**: Identificador do ramo;
 - **De**: Barra de origem do ramo;
 - **Para**: Barra de destino do ramo;
-- **R**: Resistência do Ramo;
-- **X**: Reaatância do Ramo;
+- **R**: Resistência do Ramo [pu];
+- **X**: Reaatância do Ramo [pu];
 
 ## Arquivo: _Dados_Curva_de_Carga_P.csv_
 
@@ -44,7 +44,7 @@ Cada linha do arquivo representa as informações de curva de carga de potência
 Em cada linha são presentes as seguintes colunas, em ordem:
 
 - **Barra**: Barra na qual a curva de carga está associada;
-- **P_Hora_X**: Potência ativa para a hora X, dada por uma porcentagem da carga nominal do barramento;
+- **P_Hora_X**: Potência ativa para a hora X, dada por uma porcentagem da carga nominal do barramento [%];
 
 ## Arquivo: _Dados_Curva_de_Carga_Q.csv_
 
@@ -53,7 +53,7 @@ Cada linha do arquivo representa as informações de curva de carga de potência
 Em cada linha são presentes as seguintes colunas, em ordem:
 
 - **Barra**: Barra na qual a curva de carga está associada;
-- **Q_Hora_X**: Potência reativa para a hora X, dada por uma porcentagem da carga nominal do barramento;
+- **Q_Hora_X**: Potência reativa para a hora X, dada por uma porcentagem da carga nominal do barramento [%];
 
 <br><br>
 
