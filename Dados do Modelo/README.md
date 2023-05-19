@@ -1,52 +1,59 @@
 <div align="center">
-    <img src=".github/Imagens/solar-energy-icon.svg" style="width: 20vw">
+    <img src="../.github/Imagens/Modelo_Clusterizado.png" style="width: 60vw">
     
-    Repositório de Dados: Uma Avaliação em Série-Temporal Quase-Estática da 
-    Capacidade de Hospedagem de Geração FV em Redes de Distribuição 
+    Dados do Modelo
 </div>
 
 Dados Referentes ao **Artigo** submetido ao **Simpósio Brasileiro de Sistemas Elétricos** (SBSE) 2023
 
-
-
-
 <br><br>
 
-# ⛅ Introdução
+# 🔎 Legenda
 
-O presente repositório a
+## Pasta: _Dados_Barra.csv_
 
+Cada linha do arquivo representa as informações de cada uma das 70 barras.
 
+Em cada linha são presentes as seguintes colunas, em ordem:
 
+- **ID**: Identificador da barra;
+- **Tipo**: 1 (PQ) ou 3 (Referência)
+- **Carga_P**: Carga Ativa Nominal [pu];
+- **Carga_Q**: Carga Reativa Nominal [pu];
+- **V**: Módulo de Tensão da Barra [pu];
+- **Theta**: Ângulo de Fase da Barra [rad];
+- **Vmax**: Máxima Tensão Permitida [pu];
+- **Vmin**: Mínima Tensão Permitida [pu];
 
-<br><br>
+## Pasta: _Dados_Ramo.csv_
 
-# 🗂️ Organização
+Cada linha do arquivo representa as informações de cada uma das 69 linhas.
 
-## Pasta: _Dados do Modelo_
-Esta pasta contém os dados elétricos do sistema de distribuição trabalhado no artigo
+Em cada linha são presentes as seguintes colunas, em ordem:
 
-Os arquivos, seus significados e formatação são:
-- `Dados de Linha.csv`:  
-- `Dados de Gerador.csv`:  
-- `Dados de Gerador.csv`:  
+- **ID**: Identificador do ramo;
+- **De**: Barra de origem do ramo;
+- **Para**: Barra de destino do ramo;
+- **R**: Resistência do Ramo;
+- **X**: Reaatância do Ramo;
 
+## Pasta: _Dados_Curva_de_Carga_P.csv_
 
-<br>
+Cada linha do arquivo representa as informações de curva de carga de potência ativa para cada uma das 70 barras.
 
-## Pasta: _Resultados_
-Esta pasta apresenta os resultados finais dos estudos de caso trabalhados no artigo
+Em cada linha são presentes as seguintes colunas, em ordem:
 
-- `EC0.csv`<sup>Estudo de Caso 0</sup>:
+- **Barra**: Barra na qual a curva de carga está associada;
+- **P_Hora_X**: Potência ativa para a hora X, dada por uma porcentagem da carga nominal do barramento;
 
+## Pasta: _Dados_Curva_de_Carga_Q.csv_
 
+Cada linha do arquivo representa as informações de curva de carga de potência reativa para cada uma das 70 barras.
 
-<br><br>
+Em cada linha são presentes as seguintes colunas, em ordem:
 
-# 💾 Download
-Baixe os dados deste repositório em formato `.zip` [através deste link](https://github.com/CristhianGRO/dados-artigo-sbse-2023/archive/refs/heads/main.zip)
-
-
+- **Barra**: Barra na qual a curva de carga está associada;
+- **Q_Hora_X**: Potência reativa para a hora X, dada por uma porcentagem da carga nominal do barramento;
 
 <br><br>
 
@@ -54,9 +61,6 @@ Baixe os dados deste repositório em formato `.zip` [através deste link](https:
 
 Dúvidas ou sugestões? Entre em contato com a gente
 - **E-mail:** cristhiangro@gmail.com
-
-
-
 
 <br><br>
 
