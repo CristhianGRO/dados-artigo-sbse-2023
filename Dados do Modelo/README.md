@@ -10,7 +10,7 @@ Dados Referentes ao **Artigo** submetido ao **Simpósio Brasileiro de Sistemas E
 
 # 🔎 Legenda
 
-## Pasta: _Dados_Barra.csv_
+## Arquivo: _Dados_Barra.csv_
 
 Cada linha do arquivo representa as informações de cada uma das 70 barras.
 
@@ -25,7 +25,7 @@ Em cada linha são presentes as seguintes colunas, em ordem:
 - **Vmax**: Máxima Tensão Permitida [pu];
 - **Vmin**: Mínima Tensão Permitida [pu];
 
-## Pasta: _Dados_Ramo.csv_
+## Arquivo: _Dados_Ramo.csv_
 
 Cada linha do arquivo representa as informações de cada uma das 69 linhas.
 
@@ -37,7 +37,7 @@ Em cada linha são presentes as seguintes colunas, em ordem:
 - **R**: Resistência do Ramo;
 - **X**: Reaatância do Ramo;
 
-## Pasta: _Dados_Curva_de_Carga_P.csv_
+## Arquivo: _Dados_Curva_de_Carga_P.csv_
 
 Cada linha do arquivo representa as informações de curva de carga de potência ativa para cada uma das 70 barras.
 
@@ -46,7 +46,7 @@ Em cada linha são presentes as seguintes colunas, em ordem:
 - **Barra**: Barra na qual a curva de carga está associada;
 - **P_Hora_X**: Potência ativa para a hora X, dada por uma porcentagem da carga nominal do barramento;
 
-## Pasta: _Dados_Curva_de_Carga_Q.csv_
+## Arquivo: _Dados_Curva_de_Carga_Q.csv_
 
 Cada linha do arquivo representa as informações de curva de carga de potência reativa para cada uma das 70 barras.
 
